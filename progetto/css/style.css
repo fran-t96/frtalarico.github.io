@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#main-page {
+	padding: 1%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+}
+#main-page * {
+	/* Formattazione per tutti gli elementi figli di main-page */
+	padding: 5px;
+	margin: 5px;
+}
+#title-bar {
+	text-align: center;
+	font-size: 2em;
+	background-color: dimgrey;
+}
+#menu-bar {
+	display: flex;
+	justify-content: space-between;
+	background-color: dimgray;
+}
+.element {
+	width: 15%;
+	text-align: center;
+	background-color: grey;
+}
+.select {
+	background-color: red;
+}
+#content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: dimgrey;
+}
